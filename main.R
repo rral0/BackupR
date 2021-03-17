@@ -1,3 +1,5 @@
+install.packages("rstudioapi", dep = T)
+
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 cat("Working directory: ", getwd())
 
